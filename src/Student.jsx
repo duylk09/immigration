@@ -12,7 +12,7 @@ function Student(props){
 
 
 }
-Student.protoTypes = {
+Student.propsTypes = {
     name: PropTypes.string,
     age: PropTypes.number,
     isStudent: PropTypes.bool,
