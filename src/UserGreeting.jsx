@@ -19,7 +19,7 @@ function UserGreeting (props){
 
 }
 
-UserGreeting.PropTypes = {
+UserGreeting.propTypes = {
     isLoggedIn: PropTypes.bool,
     username: PropTypes.string,
 }
