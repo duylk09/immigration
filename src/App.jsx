@@ -26,16 +26,18 @@ function App() {
 
   return(
     <>
-      <Header/>
+
+    
+      {/* <Header/>
       <Food/>
       <Card/>
       <Button/>
 
       <MyComponent/>
       <Counter/>
-      {/* <ProfilePic/> */}
+      <ProfilePic/>
 
-      {/* <UserGreeting isLoggedIn={true} username="Don" /> */}
+      <UserGreeting isLoggedIn={true} username="Don" />
       <UserGreeting isLoggedIn={true}/>
       {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
       {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
@@ -44,7 +46,7 @@ function App() {
       <Student name="Patrick" age={42} isStudent={false}/>
       <Student name="Squidward" age={50} isStudent={false}/>
       <Student name="Don" age={18} isStudent={true}/>
-      <Footer/>
+      <Footer/> */}
     </>
   );
   
