@@ -9,6 +9,16 @@ import List from "./List";
 import ProfilePic from "./ProfilePic";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
+import ColorPicker from "./ColorPicker";
+import MyComponent2 from "./MyComponent2";
+import MyComponent3 from "./MyComponent3";
+import MyComponent4 from "./MyComponent4";
+import ToDoList from "./ToDoList";
+import MyComponent5 from "./MyComponent5";
+import MyComponent6 from "./MyComponent6";
+import DigitalClock from "./DigitalClock";
+import ComponentA from "./ComponentA";
+import MyComponent7 from "./MyComponent7";
 
 function App() {
 
@@ -26,15 +36,25 @@ function App() {
 
   return(
     <>
-
-    
+      <MyComponent7/>
+      {/* <ComponentA/> */}
+      {/* <DigitalClock/> */}
+      {/* <MyComponent6/> */}
+      {/* <MyComponent5/> */}
+      {/* <ToDoList/> */}
+      {/* <MyComponent4/> */}
+      {/* <MyComponent3/> */}
+      {/* <MyComponent2/> */}
+      {/* <Counter/>
+      <ColorPicker/> */}
+      
       {/* <Header/>
       <Food/>
       <Card/>
       <Button/>
 
       <MyComponent/>
-      <Counter/>
+      
       <ProfilePic/>
 
       <UserGreeting isLoggedIn={true} username="Don" />
