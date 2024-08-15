@@ -19,6 +19,7 @@ import MyComponent6 from "./MyComponent6";
 import DigitalClock from "./DigitalClock";
 import ComponentA from "./ComponentA";
 import MyComponent7 from "./MyComponent7";
+import Stopwatch from "./Stopwatch";
 
 function App() {
 
@@ -36,7 +37,8 @@ function App() {
 
   return(
     <>
-      <MyComponent7/>
+      <Stopwatch/>
+      {/* <MyComponent7/> */}
       {/* <ComponentA/> */}
       {/* <DigitalClock/> */}
       {/* <MyComponent6/> */}
